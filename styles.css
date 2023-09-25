@@ -1,0 +1,94 @@
+/*Colors in image: 
+Eerie black: #151B1B
+Old Rose: #BF7A6D
+Cambridge Blue: #95A78D
+Bone: #C8C6AF
+*/
+
+
+* {
+    color: #C8C6AF;
+}
+
+body{
+    background-color: #151B1B;
+    margin-bottom: 500px;
+}
+
+hr{
+    height: 10px;
+    border: 0;
+    box-shadow: 0 30px 30px -30px magenta inset;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    /*Jewels, if you change your mind and you want to center the image instead, change width to 100%*/
+    width: 80%;
+}
+
+.jewels-img{
+    object-fit: scale-down;
+    width: 300px;
+    height: 800px;
+    flex-basis: 600px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 70vh;
+    width: 100%;
+}
+
+.project-heading{
+    /*height: 500px;*/
+    width: 100%;
+    /*background-color: #BF7A6D;*/
+    margin: 0 auto auto auto;
+    text-align: center;
+}
+
+.project-items-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 0.5fr 1fr;
+    text-align: left;
+    gap: 10px;
+    padding: 20px;
+    /*background-color: #BF7A6D;*/
+    height: 500px;
+    width: 500px;
+    align-items: center;
+}
+
+.project-screenshot{
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.project-title{
+    text-align: left;
+}
+
+
+.project-title{
+    font-weight: bold;
+    font-size: large;
+}
+
+.subtitle{
+    padding: 50px;
+}
